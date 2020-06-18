@@ -10,7 +10,7 @@ torchmps_dir = '..'
 sys.path.append(torchmps_dir)
 
 from torchmps import MPS
-from utils import joint_shuffle
+from torchmps.utils import joint_shuffle
 
 # Get parameters for testing
 parser = argparse.ArgumentParser(description='Hyperparameter tuning')

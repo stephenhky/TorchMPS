@@ -3,7 +3,7 @@ import torch
 import sys
 
 sys.path.append('..')
-from utils import svd_flex
+from torchmps.utils import svd_flex
 
 shapes = [[2, 4],
           [7, 2, 4],

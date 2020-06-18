@@ -2,11 +2,10 @@
 TODO:
     (1) Update master to include all the new features in dynamic_capacity
 """
-import math
 import torch
 import torch.nn as nn
-from utils import init_tensor, svd_flex
-from contractables import SingleMat, MatRegion, OutputCore, ContractableList, \
+from torchmps.utils import init_tensor, svd_flex
+from torchmps.contractables import SingleMat, MatRegion, OutputCore, ContractableList, \
                           EdgeVec, OutputMat
 
 class TI_MPS(nn.Module):
