@@ -4,9 +4,9 @@ TODO:
 """
 import torch
 import torch.nn as nn
-from torchmps.utils import init_tensor, svd_flex
-from torchmps.contractables import SingleMat, MatRegion, OutputCore, ContractableList, \
-                          EdgeVec, OutputMat
+from .utils import init_tensor, svd_flex
+from .contractables import SingleMat, MatRegion, OutputCore, ContractableList, \
+                           EdgeVec, OutputMat
 
 class TI_MPS(nn.Module):
     """
