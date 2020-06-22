@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-import torch
 import sys
 
 sys.path.append('..')
-from contractables import *
-from torchmps import *
+from torchmps.contractables import *
 
 batch_size = 16
 size = 10
